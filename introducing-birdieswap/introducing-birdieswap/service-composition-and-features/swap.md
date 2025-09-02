@@ -1,5 +1,7 @@
 # Swap
 
+<figure><img src="../../../.gitbook/assets/Birdieswap_Swap_description.png" alt=""><figcaption></figcaption></figure>
+
 In an AMM-based DEX, liquidity pools for both the token to be exchanged and its paired counterpart must exist. For example, exchanging ETH for USDT necessitates an ETH-USDT liquidity pool.
 
 While it is feasible to deposit assets into interest-bearing protocols and then supply liquidity on a DEX using the resulting receipt tokens, trading within such pools requires that the user holds the corresponding receipt tokens in the correct pairing. Without them, no trade can occur—liquidity is merely supplied without generating fee income.
