@@ -18,6 +18,8 @@ layout:
 
 # Welcome to Birdieswap
 
+<figure><img src=".gitbook/assets/Birdieswap_Intro (1).png" alt=""><figcaption></figcaption></figure>
+
 Welcome to Birdieswap!
 
 Birdieswap is an innovative software tool designed within the decentralized finance (DeFi) ecosystem **to enable users to earn “interest income” and “trading fee income”** **SIMULTANEOUSLY** by utilizing their cryptocurrencies. Whereas traditional DeFi platforms typically allow users to benefit from only one of these two principal yield models—either interest or fees—Birdieswap empowers you to continuously enjoy both streams of income with just a single liquidity provision.

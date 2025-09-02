@@ -20,8 +20,6 @@ layout:
 
 ## Introducing Birdieswap
 
-<figure><img src="../../.gitbook/assets/Birdieswap_Intro.png" alt=""><figcaption></figcaption></figure>
-
 #### The Source of DeFi Yields
 
 In the realm of DeFi, yields generally derive from three sources: interest income from cryptocurrency lending, distribution of service fees, and reward tokens offered in various forms. However, reward tokens are subject to fluctuations in both distribution timing and quantity—as determined by the project team’s strategy—and their values can be highly volatile. Thus, interest income and fee revenue constitute the more fundamental sources of yield.
