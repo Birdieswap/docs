@@ -6,7 +6,7 @@ Since liquidity supplied through Birdieswap consists of receipt tokens obtained 
 
 To simplify this complex process, Birdieswap offers the Birdieswap router.
 
-<figure><img src="https://content.gitbook.com/content/lZQrEn5MW0lM7mThH3ST/blobs/QqRbH1qwIe4E93mm5oHr/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202024-06-25%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%202.09.45.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Birdieswap_Swap (1).jpg" alt=""><figcaption></figcaption></figure>
 
 1. Through a virtual DEX interface provided by Birdieswap, the user selects the token they hold and the desired token to receive, then enters the swap amount. From the user’s perspective, both the token being exchanged and the token received are native tokens.
 2. As with any conventional DEX (such as Uniswap), the user first authorizes the token usage.
