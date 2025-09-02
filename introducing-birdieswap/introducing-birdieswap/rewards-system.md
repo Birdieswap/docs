@@ -1,5 +1,7 @@
 # Rewards System
 
+<figure><img src="../../.gitbook/assets/Birdieswap_Rewards.png" alt=""><figcaption></figcaption></figure>
+
 Birdieswap awards rewards to users who engage in swap transactions through its service.
 
 When a swap is executed, a portion of the trading fee income accumulates in the relevant pool. Once the yield surpasses the predefined threshold, an automatic harvest is triggered, and the resulting yield is distributed to users in the form of Birdieswap Rewards.

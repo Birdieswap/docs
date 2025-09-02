@@ -20,6 +20,8 @@ layout:
 
 ## Introducing Birdieswap
 
+<figure><img src="../../.gitbook/assets/Birdieswap_Intro.png" alt=""><figcaption></figcaption></figure>
+
 #### The Source of DeFi Yields
 
 In the realm of DeFi, yields generally derive from three sources: interest income from cryptocurrency lending, distribution of service fees, and reward tokens offered in various forms. However, reward tokens are subject to fluctuations in both distribution timing and quantity—as determined by the project team’s strategy—and their values can be highly volatile. Thus, interest income and fee revenue constitute the more fundamental sources of yield.
@@ -39,6 +41,8 @@ Subsequently, Uniswap introduced V3 with its “Concentrated Liquidity” featur
 Moreover, liquidity supplied to AMM models generates fee income only when trades occur, leaving capital underutilized during periods of inactivity.
 
 Other protocols offering yield farming services have attempted to enhance returns by staking LP tokens after providing liquidity on a DEX or by offering additional rewards through liquidity mining when depositing or borrowing assets. Yield Farming Aggregators have also emerged, pooling capital from multiple users to invest efficiently and then automatically harvesting and reinvesting yields on a regular basis to harness the benefits of compounding.
+
+<figure><img src="../../.gitbook/assets/Birdieswap_Dual_Yields.png" alt=""><figcaption></figcaption></figure>
 
 ## Is There a Way to Earn Both Streams of Income Simultaneously?
 
