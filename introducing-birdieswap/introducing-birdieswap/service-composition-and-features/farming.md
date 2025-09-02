@@ -1,5 +1,7 @@
 # Farming
 
+<figure><img src="../../../.gitbook/assets/Birdieswap_Farming_description.png" alt=""><figcaption></figcaption></figure>
+
 The Birdieswap router is also responsible for all farming operations within Birdieswap. It is composed of various Single Token Vaults and Pair Token(LP) Vaults that connect to protocols offering diversified yield opportunities for each token. Through the router, users can easily engage in Pair Token(LP) Farming.
 
 <figure><img src="https://content.gitbook.com/content/lZQrEn5MW0lM7mThH3ST/blobs/8LwFzkDUbOHILIH4GsAe/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA%202024-06-20%20%E1%84%8B%E1%85%A9%E1%84%92%E1%85%AE%201.34.42.png" alt=""><figcaption></figcaption></figure>
