@@ -27,3 +27,4 @@
 
 * [Terms of Service](legal/terms-of-service.md)
 * [Privacy Policy](legal/privacy-policy.md)
+* [Intellectual Property](legal/intellectual-property.md)
