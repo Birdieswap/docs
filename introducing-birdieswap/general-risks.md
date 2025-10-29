@@ -1,3 +1,7 @@
+---
+icon: comment-exclamation
+---
+
 # Risks
 
 Birdieswap is a decentralized liquidity infrastructure integrating multiple DeFi protocols.\

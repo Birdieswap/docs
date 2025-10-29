@@ -1,3 +1,7 @@
+---
+icon: shield-check
+---
+
 # Audits (TBD)
 
 The Birdieswap team is currently in the process of preparing materials and documentation for an external security audit.\
