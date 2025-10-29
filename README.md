@@ -26,7 +26,7 @@ We operate as a router layer that unifies lending/vaults and AMMs into one seaml
 
 &#x20;
 
-What is Birdieswap doing?
+## What is Birdieswap doing?
 
 DeFi is powerful, but it still feels fragmented — capital sits in yield vaults while trading happens elsewhere. Users must choose between earning and using their assets.
 
@@ -37,25 +37,19 @@ Birdieswap brings these worlds together. With our Dual-Yield Architecture, one u
 
 From the user’s perspective, nothing feels different: swaps happen in familiar tokens, slippage and fees look normal, and confirmations are instant. Behind the scenes, Birdieswap’s router handles the complexity for you.
 
-&#x20;
-
-Under the hood (at a glance)
+## Under the hood (at a glance)
 
 * btoken standard. Yield-bearing receipt tokens from vaults are standardized as btokens so they can live natively inside AMM pools.
 * Router intelligence. When a trader swaps USDC → WBTC, our router automatically wraps/unwraps at the edges, so the trade clears against a btoken pair without extra clicks or steps.
 * Price fairness. The router respects each vault’s share value, helping pools track fair value as yields change — while preserving a familiar trading UX.
 
-&#x20;
-
-Who is Birdieswap for?
+## Who is Birdieswap for?
 
 * Traders: Just swap. Same tokens, same flow. The router abstracts the rest.
 * LPs: Provide liquidity to btoken pairs and earn dual yield: vault APR + AMM fees.
 * Integrators: A clean, composable interface for wallets, aggregators, and protocols.
 
-&#x20;
-
-Birdieswap’s Goals
+## Birdieswap’s Goals
 
 * Dual-Yield Accessibility\
   Make dual earnings a single, seamless action for everyone.
@@ -64,7 +58,7 @@ Birdieswap’s Goals
 * Sustainable Liquidity Flywheel\
   More yield → deeper liquidity → better pricing → more flow — a loop that strengthens the entire ecosystem.
 
-&#x20;
+
 
 Birdieswap exists to make liquidity smarter, earning effortless, and DeFi more composable for everyone.
 

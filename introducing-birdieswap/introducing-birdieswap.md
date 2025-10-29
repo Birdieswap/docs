@@ -18,11 +18,7 @@ layout:
 
 # Introducing Birdieswap
 
-Swap like any DEX. Earn like two.\
-Birdieswap turns yield-bearing deposits into trade-ready liquidity—so LPs earn deposit yield + trading fees, and traders swap with zero extra steps.
-----------------------------------------------------------------------------------------------------------------------------------------------------
-
-
+#### _Swap like any DEX. Earn like two._ _Birdieswap turns yield-bearing deposits into trade-ready liquidity—so LPs earn deposit yield + trading fees, and traders swap with zero extra steps._
 
 ## **Provide Liquidity – Capital That Works Twice**
 
@@ -53,9 +49,7 @@ This mechanism compounds yield continuously, growing both LP returns and overall
 2. Birdieswap standardizes receipt tokens as btokens (our wrapper) so they behave like normal ERC-20s in the pool.
 3. Your position now accrues vault yield + swap fees automatically.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
-
-
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 ## Swap — Same UX, Smarter Liquidity
 
@@ -81,22 +75,16 @@ Meanwhile, auto-compounding mechanics continually expand these pools, strengthen
 
 **How it works (trader flow):**&#x20;
 
-
-
-
-
-
+<figure><img src="../.gitbook/assets/Birdieswap_Swap_description.png" alt=""><figcaption></figcaption></figure>
 
 ## Why Birdieswap is different
 
-| **Traditional DEX** | **Birdieswap**                                    |
-| ------------------- | ------------------------------------------------- |
-| Idle liquidity      | Productive liquidity (keeps earning yield)        |
-| Native tokens only  | Yield-bearing assets trade natively (via btokens) |
-| Fragmented UX       | One-click swaps; router hides all complexity      |
-| Fees only           | Dual yield: vault growth + AMM fees               |
-
-
+|   Traditional DEX  |                     Birdieswap                    |
+| :----------------: | :-----------------------------------------------: |
+|   Idle Liquidity   |     Productive Liquidity (keeps earning yield)    |
+| Native tokens only | Yield-bearing assets trade natively (via bTokens) |
+|    Fragmented UX   |    One-click swaps; router hides all complexity   |
+|      Fees only     |        Dual yield; vault growth + AMM fees        |
 
 ## Curated Pools, Healthier Markets
 

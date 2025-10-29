@@ -1,4 +1,8 @@
-# Software Fees
+---
+icon: comment-dollar
+---
+
+# Fees
 
 Birdieswap is a blockchain software service that seamlessly connects various DeFi protocols, enabling users to swap tokens and/or enjoy the automated yield farming through liquidity provision.
 
