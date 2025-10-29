@@ -40,7 +40,7 @@ To simplify this complex process, Birdieswap offers the Birdieswap router.
 1. Through a virtual DEX interface provided by Birdieswap, the user selects the token they hold and the desired token to receive, then enters the swap amount. From the user’s perspective, both the token being exchanged and the token received are native tokens.
 2. As with any conventional DEX (such as Uniswap), the user first authorizes the token usage.
 3. Once the authorization is complete, the Swap button is activated. For explanatory purposes, let us denote the token held by the user as Token0 and the token to be received as Token1.
-4. The Swap Module accepts Token0 and deposits it via the corresponding Single Token Vault (Vault1) into the underlying protocol’s Token0 pool, receiving a receipt token (Receipt Token0) and issuing a corresponding Birdieswap receipt token.
+4. The Swap Module accepts Token0 and deposits it via the corresponding Single Token Vault (Vault0) into the underlying protocol’s Token0 pool, receiving a receipt token (Receipt Token0) and issuing a corresponding Birdieswap receipt token.
 5. The Birdieswap receipt token for Token0 is then exchanged within the liquidity pool for the Birdieswap receipt token corresponding to Token1.
 6. This exchanged Birdieswap receipt token is then converted back (via the appropriate Single Token Vault0, Vault1) into Receipt Token1, which is subsequently redeemed from the underlying protocol’s Token1 pool as Native Token1.
 7. Native Token1 is finally transferred to the user, completing the swap process.
