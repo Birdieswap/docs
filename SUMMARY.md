@@ -20,7 +20,7 @@
   * [Swap](how-to-use-birdieswap/swap.md)
   * [Farming](how-to-use-birdieswap/farming.md)
 * [Security](security/README.md)
-  * [General Risks](security/general-risks.md)
+  * [Risks](security/general-risks.md)
   * [Audits (TBD)](security/audits.md)
 
 ## LEGAL

@@ -1,25 +1,90 @@
-# General Risks
+# Risks
 
-DeFi is undertaken at the user’s sole risk. Due to issues arising either from Birdieswap itself or from the protocols it interacts with, users may experience partial or complete loss of their assets. The yields stated are not guaranteed. We strongly advise that users conduct thorough research and refrain from investing funds beyond their risk tolerance.
+Birdieswap is a decentralized liquidity infrastructure integrating multiple DeFi protocols.\
+As with all blockchain-based financial applications, its use involves **significant risk**.\
+Participation in Birdieswap does not guarantee principal or yield, and all users should carefully assess their **risk tolerance** before using the service.
 
-## Smart Contract Failure
+#### **1. Market Risks**
 
-Birdieswap’s smart contracts are open-source and have undergone extensive code reviews, testing, and third-party audits. They are not simply forks of pre-existing contracts. Although multiple reviews have been successfully completed, it does not guarantee that Birdieswap’s target APY will be achieved or that the underlying protocols (or Birdieswap itself) will be impervious to hacking.
+* **Asset Price Volatility:**\
+  Cryptocurrency markets can be extremely volatile. Price fluctuations may directly affect lending rates, liquidity pool ratios, and overall yield (APY).
+* **Liquidity Risk:**\
+  Market conditions may cause liquidity for certain assets to drop rapidly, leading to swap failures, withdrawal delays, or higher slippage during trading.
 
-## Composability Risk
+#### **2. Regulatory and Legal Risks**
 
-Birdieswap interacts with a variety of assets and multiple smart contracts. While such composability enhances Birdieswap’s functionality, any issue in one of the interacting contracts can expose the user to risk. Birdieswap strives to audit and evaluate the risks associated with the farming contracts, but the tokens involved in each strategy remain subject to inherent risks. Users are advised to examine the specific strategy of each vault before participating.
+* **Regulatory Uncertainty:**\
+  DeFi remains subject to evolving global regulations. Future legal or policy changes may restrict or prohibit access to decentralized services.
+* **User Responsibility:**\
+  Users are responsible for complying with all applicable local laws and tax regulations. Birdieswap and its contributors assume **no legal responsibility** for user compliance.
+* **Restricted Jurisdictions:**\
+  Birdieswap is not available to residents, citizens, or entities of the United States or any sanctioned jurisdictions (including Iran, Cuba, North Korea, and others).\
+  Users must verify their own legal eligibility before interacting with the protocol.
 
-## Automated Market Maker Risk
+#### **3. Security Risks**
 
-Birdieswap employs yield farming strategies that expose liquidity to AMM-based DEXs. Providing liquidity in an AMM environment is a sophisticated endeavor and may incur losses in various ways. All actions are executed at the user’s own risk.
+* **Smart Contract Vulnerabilities:**\
+  Even after audits and extensive testing, smart contracts may contain undiscovered bugs or logic flaws that could result in partial or total loss of user assets.
+* **Third-Party Protocol Dependency:**\
+  Birdieswap integrates with external DeFi protocols. Any parameter changes, governance updates, downtime, or security incidents in those protocols may directly affect Birdieswap’s performance and user outcomes.
+* **Cybersecurity Threats:**\
+  Phishing attacks, DNS hijacking, or counterfeit interfaces may compromise user wallets, leading to unauthorized transactions or permanent loss of funds.
+* **Counterparty and Protocol Selection Risk:**\
+  Birdieswap currently relies on a limited number of external protocols for yield generation and swap execution. Operational, governance, or security issues in those protocols may **simultaneously affect all Birdieswap users**. Future updates or integrations may result in changes to yield rates, fee structures, or supported assets without prior notice.
 
-Impermanent Loss refers to the potential loss incurred when providing assets to a liquidity pool. Liquidity pools are used by decentralized exchanges such as Uniswap, Curve, and Balancer to facilitate the buying and selling of supported tokens. When converting funds to supply liquidity, fluctuations in the relative values of the assets in the AMM may result in partial or complete loss of value. Should even one asset in the pool depreciate significantly or become worthless, the entire pool’s position—regardless of the originally supplied assets—may experience a loss in value.
+#### **4. Liquidity and Trading Risks**
 
-Moreover, if one asset appreciates in value relative to the others, holding the asset outside the pool may yield higher returns than supplying liquidity. It is imperative that users understand the mathematical principles behind impermanent loss before providing liquidity.
+* **Impermanent Loss:**\
+  Providing liquidity to AMMs may cause losses when asset prices diverge significantly.
+* **Temporary Withdrawal Unavailability:**\
+  If vault liquidity is fully utilized, withdrawals may be temporarily delayed.
+* **Slippage and Execution Risk:**\
+  Low liquidity or sharp market movements may lead to unfavorable swap prices.
+* **Variable Transaction Costs:**\
+  Gas fees fluctuate with network congestion, which may reduce effective yields.
+* **Dual-Yield Uncertainty:**\
+  Birdieswap’s model combines lending yields and swap fees.\
+  Actual returns may fall short of expectations due to reduced swap volume, increased gas costs, or limited liquidity.
+* &#x20;**Governance Changes:**\
+  External protocol updates—such as changes to fee models or withdrawal policies—may affect Birdieswap’s performance.
+* **Arbitrage Risk:**\
+  Expanded liquidity pools can create arbitrage opportunities, but may also increase pool volatility and impermanent loss.
 
-## Non-Liquidation (Temporary Illiquidity) Risk
+#### **5. Operational Risks**
 
-In lending protocols, if all tokens deposited in a pool are borrowed—i.e., when a lending pool’s utilization rate reaches 100%—depositors may temporarily be unable to withdraw their assets.
+* **Auto-Compounding Failure:**\
+  Automatic harvesting and reinvestment may fail due to network congestion, transaction errors, or strategy updates.
+* **Automation System Risk:**\
+  Birdieswap’s automation layer (e.g., on-chain/off-chain keepers) may experience outages or delays, resulting in postponed compounding or missed rewards.
+* **Fee Burden:**\
+  Birdieswap’s multi-step transaction structure may incur higher gas costs than simpler DEX interactions.
+* **Reward Token Uncertainty:**\
+  The value or utility of any reward token distributed by Birdieswap is **not guaranteed** and may fluctuate significantly.
 
-Since Birdieswap utilizes lending protocols as the underlying mechanism to ensure stable interest income, there exists a risk that assets deposited via Birdieswap might be temporarily inaccessible in such scenarios.
+#### **6. Technical Risks**
+
+* **Service Interruptions:**\
+  Network congestion, upgrades, or software errors may cause temporary downtime or limited functionality.
+* **Data Delays and Errors:**\
+  Displayed metrics such as APY, TVL, and fee rates may depend on external data sources.\
+  Inaccurate or delayed data could lead to misinformed decisions.
+* **Future Technology Risks:**\
+  Emerging technologies such as quantum computing may pose long-term security threats to blockchain systems.
+
+#### **7. Integration and Interoperability Risks**
+
+Birdieswap operates by combining multiple external protocols. A failure, exploit, or parameter change in any integrated component can affect overall routing, yield, or liquidity management. Birdieswap does not control these third-party protocols and assumes no liability for their **operation, stability, or performance**.
+
+#### **8. User Responsibility and Limitation of Liability**
+
+* Users are solely responsible for safeguarding private keys, verifying transactions, and fulfilling tax obligations.
+* All blockchain transactions are final and irreversible once confirmed on-chain.
+* Birdieswap does not provide financial or investment advice; all information is for **educational purposes only**.
+* As a non-custodial protocol, Birdieswap never holds or manages user funds directly and bears no liability for any loss, underperformance, or indirect damage arising from service use.
+
+***
+
+#### **Disclaimer**
+
+Birdieswap is an **experimental, permissionless protocol**.\
+By using it, you acknowledge that you fully understand and accept all risks associated with decentralized financial systems.
