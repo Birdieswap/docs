@@ -24,8 +24,6 @@ Birdieswap is a next-generation DeFi interface that unlocks Dual Yield — letti
 
 We operate as a router layer that unifies lending/vaults and AMMs into one seamless liquidity surface. The result: LPs earn more on the same dollars, and traders swap exactly like they do on any DEX.
 
-&#x20;
-
 ## What is Birdieswap doing?
 
 DeFi is powerful, but it still feels fragmented — capital sits in yield vaults while trading happens elsewhere. Users must choose between earning and using their assets.
@@ -62,7 +60,7 @@ From the user’s perspective, nothing feels different: swaps happen in familiar
 
 Birdieswap exists to make liquidity smarter, earning effortless, and DeFi more composable for everyone.
 
-### Disclaimer
+## Disclaimer
 
 While users may engage in yield farming by utilizing the smart contracts provided on the Birdieswap website, please note that returns are determined by the third-party protocols selected as underlying investment targets, and thus, the principal is not guaranteed to be 100%.
 

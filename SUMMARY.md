@@ -8,7 +8,7 @@
 * [Router Flow & Diagrams](introducing-birdieswap/router-flow-and-diagrams.md)
 * [Fees](introducing-birdieswap/software-fees.md)
 * [Risks](introducing-birdieswap/general-risks.md)
-* [Audits (TBD)](introducing-birdieswap/audits.md)
+* [Audits](introducing-birdieswap/audits.md)
 
 ***
 
