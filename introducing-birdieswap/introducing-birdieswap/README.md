@@ -18,42 +18,92 @@ layout:
 
 # Introducing Birdieswap
 
-## Introducing Birdieswap
+Swap like any DEX. Earn like two.\
+Birdieswap turns yield-bearing deposits into trade-ready liquidity—so LPs earn deposit yield + trading fees, and traders swap with zero extra steps.
+----------------------------------------------------------------------------------------------------------------------------------------------------
 
-#### The Source of DeFi Yields
 
-In the realm of DeFi, yields generally derive from three sources: interest income from cryptocurrency lending, distribution of service fees, and reward tokens offered in various forms. However, reward tokens are subject to fluctuations in both distribution timing and quantity—as determined by the project team’s strategy—and their values can be highly volatile. Thus, interest income and fee revenue constitute the more fundamental sources of yield.
 
-The concept of earning through interest and fees is one that we are familiar with in everyday life. For instance, when taking out a bank loan, interest is paid, and when using a service, a fee is charged. The funds collected are then partially redistributed to depositors or service providers—a well-established economic principle that has endured over time.
+## **Provide Liquidity – Capital That Works Twice**
 
-This same principle applies to the DeFi world. Users pay interest when borrowing cryptocurrencies through lending services and incur trading fees when exchanging tokens on decentralized exchanges (DEXs). The interest and fees paid by users are then redistributed as income to those who have supplied liquidity or participated in the protocol. In essence, this mechanism mirrors conventional economic models, establishing the fundamental yield structure in DeFi.
+**Dual Yield, One Move**
 
-## Interest vs. Fees: The Pursuit of Superior Yields
+Birdieswap lets liquidity providers earn two revenue streams from the same capital —\
+deposit yields from integrated yield protocols and trading fees from AMM swaps.
 
-Since the advent of DeFi, numerous protocols have competitively strived to offer higher yields to their users.
+Dual yield means your liquidity earns from _two distinct sources_:
 
-Early decentralized exchanges, such as Uniswap, implemented an Automated Market Maker (AMM) model that rewarded liquidity providers with a share of the trading fees. This fee distribution model incentivized users to supply liquidity; however, it fell short of fully compensating for the impermanent loss incurred during liquidity provision.
+* Deposit Yield: Earnings from integrated protocols such as Autopilot, Aave, or Lido.
+* Trading Fees: Fees collected from AMM swaps using Proof Tokens as liquidity pairs.
 
-Subsequently, Uniswap introduced V3 with its “Concentrated Liquidity” feature, allowing liquidity providers to focus their assets within specific price ranges, thereby earning higher trading fee income when trades occur within that range. Although this mechanism enhanced yield potential beyond simple fee distribution, it also meant that liquidity outside the designated range would remain idle—resulting in both a lack of fee generation and a proportional increase in impermanent loss.
+This makes every deposit capital-efficient — earning like a vault, functioning like an AMM.
 
-Moreover, liquidity supplied to AMM models generates fee income only when trades occur, leaving capital underutilized during periods of inactivity.
+_\* Currently, Birdieswap integrates Autopilot for yield strategies and Uniswap for AMM swaps._
 
-Other protocols offering yield farming services have attempted to enhance returns by staking LP tokens after providing liquidity on a DEX or by offering additional rewards through liquidity mining when depositing or borrowing assets. Yield Farming Aggregators have also emerged, pooling capital from multiple users to invest efficiently and then automatically harvesting and reinvesting yields on a regular basis to harness the benefits of compounding.
 
-<figure><img src="../../.gitbook/assets/Birdieswap_Dual_Yields.png" alt=""><figcaption></figcaption></figure>
 
-## Is There a Way to Earn Both Streams of Income Simultaneously?
+**Auto-Compounding Engine**
 
-Yet, despite these innovations, users have historically had to choose between earning fee revenue from DEX liquidity provision or interest income from depositing assets in lending protocols.
+All rewards from deposits and swaps are automatically harvested and reinvested.\
+This mechanism compounds yield continuously, growing both LP returns and overall pool liquidity.
 
-Birdieswap’s vision was to discover a method that would allow users to capture both streams of yield simultaneously—without having to compromise between them.
+**How it works (LP flow):**
 
-Inspired by this idea, Birdieswap introduced the Birdieswap router, which deposits assets into interest-bearing protocols (such as lending platforms) and issues two types of receipt tokens. These tokens are then paired and supplied as liquidity on a DEX, thereby generating additional trading fee income. By supplying liquidity in this manner, users accrue interest on every block until withdrawal, while also earning trading fees when swaps occur—thus achieving superior overall yield.
+1. Add liquidity to a curated pool (e.g., bUSDC–bWBTC).
+2. Birdieswap standardizes receipt tokens as btokens (our wrapper) so they behave like normal ERC-20s in the pool.
+3. Your position now accrues vault yield + swap fees automatically.
 
-However, directly utilizing liquidity supplied as paired tokens for trading poses a challenge: a swap requires the counterparty to hold the identical receipt tokens and, following the swap, to convert these receipt tokens back into their original form. To address this, Birdieswap has developed the Birdieswap router to exchange a single native token for any desired token in one seamless transaction—mirroring the ease of using a conventional DEX.
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Most processes within Birdieswap are automated. All that is required from the user is to select the desired pool and initiate farming. Once farming commences, any generated yield is automatically harvested and reinvested, allowing the user to simply sit back and enjoy the compounding benefits.
 
-This groundbreaking technology—the world’s first to enable simultaneous capture of two types of yield with a single liquidity provision—is the exclusive intellectual property of the Birdieswap team and is currently under patent review.
 
-**Now is the time to seize the opportunity and enjoy double the yields with Birdieswap.**
+## Swap — Same UX, Smarter Liquidity
+
+**A Seamless Swap Experience**
+
+Birdieswap delivers a DEX-like experience — users swap as if they were using native tokens.\
+All Proof Token conversions happen automatically behind the scenes through the router.\
+No wrapping, no extra clicks — just simple, efficient swaps.
+
+* Trade using native tokens — no technical complexity.
+* Familiar interface and flow, identical to major DEXs.
+* Fully non-custodial and gas-optimized routing.
+
+**Curated Pairs, Smarter Liquidity**
+
+Birdieswap only lists curated token pairs that meet internal standards for liquidity depth, protocol stability, and fee reliability.\
+This selective approach ensures higher-quality trading environments for users.\
+Meanwhile, auto-compounding mechanics continually expand these pools, strengthening liquidity over time.
+
+* Access to pre-vetted, high-quality trading pairs.
+* Deeper liquidity → lower slippage and better execution.
+* Liquidity continuously grows through automatic reinvestment.
+
+**How it works (trader flow):**&#x20;
+
+
+
+
+
+
+
+## Why Birdieswap is different
+
+| **Traditional DEX** | **Birdieswap**                                    |
+| ------------------- | ------------------------------------------------- |
+| Idle liquidity      | Productive liquidity (keeps earning yield)        |
+| Native tokens only  | Yield-bearing assets trade natively (via btokens) |
+| Fragmented UX       | One-click swaps; router hides all complexity      |
+| Fees only           | Dual yield: vault growth + AMM fees               |
+
+
+
+## Curated Pools, Healthier Markets
+
+We list pre-vetted pairs that meet our bars for liquidity depth, vault stability, and fee transparency.\
+Auto-compounding strengthens those pools over time → deeper books, lower slippage, better execution.
+
+
+
+
+
