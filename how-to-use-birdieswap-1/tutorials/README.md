@@ -1,7 +1,3 @@
----
-icon: newspaper
----
-
 # Tutorials
 
 In this part, you’ll **learn by doing** — exploring Birdieswap’s services step by step to understand their **purpose, setup, and usage process**.

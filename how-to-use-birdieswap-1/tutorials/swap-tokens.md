@@ -1,7 +1,3 @@
----
-icon: rotate
----
-
 # Swap Tokens
 
 Token swaps are performed on the **Swap Page**. The process works just like other decentralized exchanges (DEXs), but in this tutorial, we’ll go through **every available feature** on Birdieswap to help you get comfortable with the full swapping experience.

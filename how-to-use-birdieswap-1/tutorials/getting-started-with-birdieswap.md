@@ -1,7 +1,3 @@
----
-icon: circle-play
----
-
 # Getting Started with Birdieswap
 
 To start using Birdieswap’s services, you’ll need to go through two simple steps:

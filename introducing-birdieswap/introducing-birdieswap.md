@@ -55,11 +55,11 @@ This mechanism compounds yield continuously, growing both LP returns and overall
 
 **A Seamless Swap Experience**
 
-Birdieswap delivers a DEX-like experience — users swap as if they were using native tokens.\
+Birdieswap delivers a DEX-like experience — users swap as if they were using underlying tokens.\
 All Proof Token conversions happen automatically behind the scenes through the router.\
 No wrapping, no extra clicks — just simple, efficient swaps.
 
-* Trade using native tokens — no technical complexity.
+* Trade using underlying tokens — no technical complexity.
 * Familiar interface and flow, identical to major DEXs.
 * Fully non-custodial and gas-optimized routing.
 
@@ -79,12 +79,12 @@ Meanwhile, auto-compounding mechanics continually expand these pools, strengthen
 
 ## Why Birdieswap is different
 
-|   Traditional DEX  |                     Birdieswap                    |
-| :----------------: | :-----------------------------------------------: |
-|   Idle Liquidity   |     Productive Liquidity (keeps earning yield)    |
-| Native tokens only | Yield-bearing assets trade natively (via bTokens) |
-|    Fragmented UX   |    One-click swaps; router hides all complexity   |
-|      Fees only     |        Dual yield; vault growth + AMM fees        |
+|     Traditional DEX    |                     Birdieswap                    |
+| :--------------------: | :-----------------------------------------------: |
+|     Idle Liquidity     |     Productive Liquidity (keeps earning yield)    |
+| Underlying tokens only | Yield-bearing assets trade directly (via bTokens) |
+|      Fragmented UX     |    One-click swaps; router hides all complexity   |
+|        Fees only       |        Dual yield; vault growth + AMM fees        |
 
 ## Curated Pools, Healthier Markets
 
